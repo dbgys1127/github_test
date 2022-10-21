@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TodoController {
+public class DevBranchController {
 
     @GetMapping("/")
     public String homeworkAuth() {
-        return "To-do Application ! by dev brunch";
+        return "Pull Request I'm done !";
     }
 }
